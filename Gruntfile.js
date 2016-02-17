@@ -51,5 +51,5 @@ module.exports = function (grunt) {
         }
     });
     //Register the task as DEFUALT
-    grunt.registerTask('default', ['blanket_mocha']);
+    grunt.registerTask('default', ['karma']);
 };
